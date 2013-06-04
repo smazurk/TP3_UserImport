@@ -10,7 +10,7 @@ tau.mashups
           
           	console.log(context.getApplicationPath());
           
-		require(['http://smidge12.homedns.org/handsontable/0.8.5/jquery.handsontable.full.js'], function() {
+		require(['//cdn.jsdelivr.net/jquery.handsontable/0.8.16/jquery.handsontable.full.js'], function() {
 			var userimporter = function() {
 
 			this._popup = null;
